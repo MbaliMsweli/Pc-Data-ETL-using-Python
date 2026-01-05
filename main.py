@@ -15,3 +15,5 @@ print(df.dtypes)
 
 ##check missing values 
 print(df.isnull().sum())
+
+df.to_csv("bronze_pc_data.csv", index=False)
