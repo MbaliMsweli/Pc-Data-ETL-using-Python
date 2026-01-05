@@ -10,7 +10,7 @@ print(df.head())
 ##checking how many columns and rows in the dataset
 print(df.shape)
 
-##checking data types 
+##checking data types.
 print(df.dtypes)
 
 ##check missing values 
