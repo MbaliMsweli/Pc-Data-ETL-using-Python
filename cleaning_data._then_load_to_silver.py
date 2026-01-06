@@ -1,4 +1,5 @@
 import pandas as pd
+##This helps search and clean text
 import re
 
 df=pd.read_csv("pc_data.csv", sep=";")

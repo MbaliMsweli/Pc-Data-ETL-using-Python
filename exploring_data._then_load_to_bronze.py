@@ -1,9 +1,6 @@
 ##importing library to work with tables 
 import pandas as pd
 
-##This helps search and clean text
-import re
-
 ### read csv file 
 df=pd.read_csv("pc_data.csv", sep=";")
 print(df)
