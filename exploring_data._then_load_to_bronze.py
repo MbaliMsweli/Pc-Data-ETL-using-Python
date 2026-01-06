@@ -5,6 +5,9 @@ import pandas as pd
 df=pd.read_csv("pc_data.csv", sep=";")
 print(df)
 
+df.to_csv("bronze_pc_data.csv", index=False)
+print("Bronze layer created")
+
 ## check the first few rows 
 print(df.head())
 
@@ -36,5 +39,5 @@ for col in df.select_dtypes(include="object").columns:
             print("-", value)
 
 
-df.to_csv("bronze_pc_data.csv", index=False)
+
 
