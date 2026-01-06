@@ -1,10 +1,11 @@
-##importing library to work with tables 
+##importing library to work with files 
 import pandas as pd
 
 ### read csv file 
 df=pd.read_csv("pc_data.csv", sep=";")
 print(df)
 
+##created bronze layer to store original dataset
 df.to_csv("bronze_pc_data.csv", index=False)
 print("Bronze layer created")
 
