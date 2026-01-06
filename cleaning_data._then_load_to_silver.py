@@ -41,7 +41,7 @@ df["Customer Contact Number"] = df["Customer Contact Number"].apply(clean_phone_
 print(df["Customer Contact Number"].head(5))
 
 
-##Define date  in the dataset
+##Define date columns in the dataset
 date_columns = ["Purchase Date", "Ship Date"]
 
 ## Converts Date Columns into Date type
